@@ -1,0 +1,271 @@
+body{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+header{
+    display: flex;
+    width: 1136px;
+    padding: 32px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.inicio-nav{
+    display: flex;
+align-items: center;
+gap: 32px;
+}
+.inicio-iconos{
+    display: flex;
+width: 176px;
+justify-content: center;
+align-items: center;
+
+}
+.icon1{
+    width: 49.997px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.icon2{
+    width: 126.003px;
+    height: 18.5px;
+    flex-shrink: 0; 
+}
+.icon3{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.form-control{
+    display: flex;
+width: 393px;
+padding: 8px 16px;
+align-items: center;
+gap: 8px;
+
+border-radius: 20px;
+background: var(--preto-05, #F5F5F5);
+}
+.btn{
+    display: flex;
+width: 182px;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+
+}
+
+.btn text{
+    color: var(--azul-100, #2A7AE4);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.promocion{
+    display: flex;
+height: 352px;
+padding: 32px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+background-image: url("/asset/pokebanner.png");
+}
+.promoTexto{
+    display: flex;
+width: 1136px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 16px;
+}
+.promocion_texto{
+    display: flex;
+width: 751px;
+flex-direction: column;
+
+    color: var(--preto-branco, #FFF);
+font-family: Raleway;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.promocion__texto{
+    color: var(--preto-branco, #FFF);
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container{
+    display: flex;
+width: 1440px;
+flex-direction: column;
+align-items: center;
+gap: 64px;
+}
+
+.productos-general{
+        display: flex;
+width: 1440px;
+flex-direction: column;
+align-items: center;
+gap: 64px;
+   
+}
+.productos-items{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    
+}
+.contenido-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+
+.imagen-producto{
+    height: 176px;
+    width: 174px;
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+    flex: 1 0 0;
+    align-self: stretch;
+  
+}
+
+
+
+
+.titulo_productos{
+    display: flex;
+    width: 1133px;
+    justify-content: space-between;
+    align-items: center;
+
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  
+  
+}
+
+.titulo-imagen{
+    display: flex;
+flex-direction: column;
+align-self: stretch;
+color: var(--preto-100, #464646);
+
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.imagen-precio{
+    color: var(--preto-100, #464646);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ver-producto{
+    color: var(--azul-100, #2A7AE4);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.titulo-texto{
+ 
+    color: var(--preto-100, #464646);
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.titulo--subtexto{
+    display: flex;
+align-items: center;
+gap: 8px;
+
+ color: var(--azul-100, #2A7AE4);
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.footertienda{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+background-color: #EAF2FD;
+}
+
+
+.footer-contenido{
+    display: flex;
+    padding: 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+    align-self: stretch;
+}
+.footer__contenido{
+    display: flex;
+width: 1136px;
+align-items: flex-start;
+gap: 112px;
+}
+.contacto{
+    display: flex;
+width: 560px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+flex-shrink: 0;
+}
+.texto-footer{
+    display: flex;
+width: 176px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex-shrink: 0;
+}
+
+
+.rodapie{
+    display: flex;
+padding: 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+background: #FFF;
+border-radius: 0.10rem;
+}

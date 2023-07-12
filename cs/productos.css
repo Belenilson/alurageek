@@ -1,0 +1,216 @@
+body{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+
+}
+
+header{
+    display: flex;
+    width: 1136px;
+    padding: 32px 0px;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.inicio-nav{
+    display: flex;
+align-items: center;
+gap: 32px;
+}
+.inicio-iconos{
+    display: flex;
+width: 176px;
+justify-content: center;
+align-items: center;
+
+}
+.icon1{
+    width: 49.997px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.icon2{
+    width: 126.003px;
+    height: 18.5px;
+    flex-shrink: 0; 
+}
+.icon3{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.container{
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 64px;
+}
+
+.productos-general{
+    display: flex;
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+align-self: stretch;
+
+   
+}
+.productos-items{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 5rem;
+    
+    
+}
+.contenido-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    background-color: rgba(245, 13, 21, 0.742);
+    border-radius: 1.5rem;
+}
+
+
+.imagen-producto{
+    height: 176px;
+    width: 174px;
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+    flex: 1 0 0;
+    align-self: stretch;
+   
+}
+
+
+
+
+.titulo_productos{
+    display: flex;
+    width: 1133px;
+    justify-content: space-between;
+    align-items: center;
+
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  
+  
+}
+
+.titulo-imagen{
+    display: flex;
+flex-direction: column;
+align-self: stretch;
+align-self: center;
+color: var(--preto-100, #464646);
+
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.imagen-precio{
+    color: var(--preto-100, #464646);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+align-self: center;
+}
+.ver-producto{
+    color: var(--azul-100, #2A7AE4);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+align-self: center;
+}
+.titulo-texto{
+ 
+    color: var(--preto-100, #464646);
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.titulo--subtexto{
+    display: flex;
+align-items: center;
+gap: 8px;
+
+ color: var(--azul-100, #2A7AE4);
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.footertienda{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+background-color: rgba(245, 13, 21, 0.742);
+border-top: 0.8rem;
+}
+
+
+
+.footer-contenido{
+    display: flex;
+    padding: 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+    align-self: stretch;
+    
+}
+.footer__contenido{
+    display: flex;
+width: 1136px;
+align-items: flex-start;
+gap: 112px;
+}
+.contacto{
+    display: flex;
+width: 560px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+flex-shrink: 0;
+}
+.texto-footer{
+    display: flex;
+width: 176px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex-shrink: 0;
+}
+
+
+.rodapie{
+    display: flex;
+padding: 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+background: #e4cece;
+border-radius: 0.10rem;
+}
